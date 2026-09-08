@@ -2,7 +2,23 @@
 
 **Living Scientific Repository**
 
+**Real-World Evidence · Knowledge Base**
+
 Evidence, context and analysis across human medicine, veterinary medicine, transplantation and oxygen biology.
+
+## BHOC ecosystem
+
+### Websites
+
+- [BHOC Therapeutics](https://bhoctherapeutics.com/) — main BHOC website
+- [BHOC Veterinary](https://bhocvet.com/) — veterinary website
+
+### Knowledge bases and evidence platforms
+
+- [BHOC Therapeutics Platform](https://archiljali.github.io/BHOC-platform/) — central BHOC scientific evidence platform
+- [BHOC VET-platform](https://github.com/ArchilJali/BHOC-VET-platform) — Veterinary Direction knowledge base
+- **Oxygen Delivery Evidence** — Real-World Evidence and broader oxygen-delivery evidence repository, this repository
+- [Full Veterinary Evidence Library](https://archiljali.github.io/BHOC-platform/veterinary/Vet-index.html) — source-linked veterinary publications and regulatory records
 
 ## Purpose
 
@@ -85,11 +101,12 @@ See [COPYRIGHT.md](COPYRIGHT.md).
 
 ## Related research platforms
 
-- BHOC Evidence Platform: direct HBOC / Oxyglobin / hemoglobin-based oxygen carrier evidence
-- BHOC Veterinary: veterinary development and species initiative
-- BHOC Therapeutics: human BHOC development
+- [BHOC Therapeutics Platform](https://archiljali.github.io/BHOC-platform/): direct HBOC / Oxyglobin / hemoglobin-based oxygen carrier evidence
+- [BHOC VET-platform](https://github.com/ArchilJali/BHOC-VET-platform): Veterinary Direction knowledge base
+- [BHOC Veterinary](https://bhocvet.com/): veterinary development and species initiative website
+- [BHOC Therapeutics](https://bhoctherapeutics.com/): main BHOC website
 
-The public ecosystem linking plan will connect these platforms through semantic links such as Direct HBOC Evidence, Broader Oxygen Delivery Evidence and Veterinary Comparator Evidence rather than by duplicating full records.
+The public ecosystem links these platforms through semantic pathways such as Direct HBOC Evidence, Broader Oxygen Delivery Evidence and Veterinary Comparator Evidence rather than by duplicating full records.
 
 ## Public interface direction
 
