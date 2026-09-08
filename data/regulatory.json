@@ -1,0 +1,30 @@
+[
+  {
+    "id": "reg-fda-oxyglobin-nada-141-067",
+    "title": "Oxyglobin, hemoglobin glutamer-200 (bovine), NADA 141-067, Freedom of Information Summary",
+    "authority": "U.S. Food and Drug Administration",
+    "year": 1998,
+    "domain": ["veterinary"],
+    "species": ["dog"],
+    "topic": ["Oxyglobin", "regulatory", "efficacy", "safety", "immunogenicity"],
+    "evidence_role": ["regulatory", "direct"],
+    "source_urls": ["https://animaldrugsatfda.fda.gov/adafda/app/search/public/document/downloadFoi/3700"],
+    "added": "2026-09-08",
+    "verification_status": "verified-primary"
+  },
+  {
+    "id": "reg-ema-oxyglobin",
+    "title": "Oxyglobin EPAR and post-authorisation procedural record",
+    "authority": "European Medicines Agency",
+    "domain": ["veterinary"],
+    "species": ["dog"],
+    "topic": ["Oxyglobin", "regulatory", "shelf life", "storage"],
+    "evidence_role": ["regulatory", "direct"],
+    "source_urls": [
+      "https://www.ema.europa.eu/en/medicines/veterinary/EPAR/oxyglobin",
+      "https://www.ema.europa.eu/en/documents/procedural-steps-after/oxyglobin-epar-procedural-steps-taken-and-scientific-information-after-authorisation_en.pdf"
+    ],
+    "added": "2026-09-08",
+    "verification_status": "verified-primary"
+  }
+]
