@@ -6,6 +6,10 @@
 
 Evidence, context and analysis across human medicine, veterinary medicine, transplantation and oxygen biology.
 
+## Public interface
+
+- [Open Real-World Evidence](https://archiljali.github.io/BHOC-platform/real-world-evidence/)
+
 ## BHOC ecosystem
 
 ### Websites
@@ -16,9 +20,11 @@ Evidence, context and analysis across human medicine, veterinary medicine, trans
 ### Knowledge bases and evidence platforms
 
 - [BHOC Therapeutics Platform](https://archiljali.github.io/BHOC-platform/) — central BHOC scientific evidence platform
-- [BHOC VET-platform](https://github.com/ArchilJali/BHOC-VET-platform) — Veterinary Direction knowledge base
-- **Oxygen Delivery Evidence** — Real-World Evidence and broader oxygen-delivery evidence repository, this repository
+- [BHOC VET-platform](https://archiljali.github.io/BHOC-VET-platform/) — Veterinary Direction knowledge base
+- **Oxygen Delivery Evidence** — Real-World Evidence and broader oxygen-delivery evidence repository, this repository; public interface above
 - [Full Veterinary Evidence Library](https://archiljali.github.io/BHOC-platform/veterinary/Vet-index.html) — source-linked veterinary publications and regulatory records
+
+Public ecosystem navigation should point to the public interfaces above, not to GitHub repository code pages.
 
 ## Purpose
 
@@ -101,22 +107,14 @@ See [COPYRIGHT.md](COPYRIGHT.md).
 
 ## Related research platforms
 
-- [BHOC Therapeutics Platform](https://archiljali.github.io/BHOC-platform/): direct HBOC / Oxyglobin / hemoglobin-based oxygen carrier evidence
-- [BHOC VET-platform](https://github.com/ArchilJali/BHOC-VET-platform): Veterinary Direction knowledge base
-- [BHOC Veterinary](https://bhocvet.com/): veterinary development and species initiative website
-- [BHOC Therapeutics](https://bhoctherapeutics.com/): main BHOC website
+- BHOC Evidence Platform: direct HBOC / Oxyglobin / hemoglobin-based oxygen carrier evidence
+- BHOC Veterinary: veterinary development and species initiative
+- BHOC Therapeutics: human BHOC development
 
-The public ecosystem links these platforms through semantic pathways such as Direct HBOC Evidence, Broader Oxygen Delivery Evidence and Veterinary Comparator Evidence rather than by duplicating full records.
+The public ecosystem linking plan connects these platforms through semantic links such as Direct HBOC Evidence, Broader Oxygen Delivery Evidence and Veterinary Comparator Evidence rather than by duplicating full records.
 
 ## Public interface direction
 
-The planned public interface will use a visually distinct scientific identity:
-
-- deep navy `#10243E`
-- scientific cyan `#1687A7`
-- cool background `#F5F8FA`
-- graphite `#26333D`
-
-This separates Oxygen Delivery Evidence visually from BHOC Veterinary orange.
+The public interface uses a visually distinct scientific identity from BHOC Veterinary while preserving direct public routes across the BHOC ecosystem.
 
 © 2026 Archil Jaliashvili.
