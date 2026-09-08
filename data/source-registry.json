@@ -180,5 +180,39 @@
     "domains": ["veterinary"],
     "topics": ["transfusion", "blood typing", "crossmatch", "storage", "clinical practice"],
     "verification_status": "verified-secondary"
+  },
+  {
+    "id": "red-cross-shortage-2024",
+    "source_type": "institutional-context",
+    "authority": "American Red Cross",
+    "title": "Red Cross national blood inventory plummets 25% in July, declares emergency blood shortage",
+    "date": "2024-08-18",
+    "url": "https://www.redcross.org/about-us/news-and-events/press-release/2024/red-cross-national-blood-inventory-plummets-in-july-declares-emergency-blood-shortage.html",
+    "domains": ["human"],
+    "topics": ["donor blood", "blood shortage", "blood-bank logistics"],
+    "verification_status": "verified-primary-context"
+  },
+  {
+    "id": "red-cross-shortage-2026-07-13",
+    "source_type": "institutional-context",
+    "authority": "American Red Cross",
+    "title": "Red Cross Declares Emergency Blood Shortage after Blood Supply Falls 25%",
+    "date": "2026-07-13",
+    "url": "https://www.redcross.org/about-us/news-and-events/press-release/2026/red-cross-declares-emergency-blood-shortage.html",
+    "domains": ["human"],
+    "topics": ["donor blood", "blood shortage", "blood-bank logistics"],
+    "verification_status": "verified-primary-context"
+  },
+  {
+    "id": "red-cross-national-crisis-2026-07-27",
+    "source_type": "institutional-context",
+    "authority": "American Red Cross",
+    "title": "American Red Cross Declares Second-Ever National Blood Supply Crisis",
+    "date": "2026-07-27",
+    "url": "https://www.redcross.org/about-us/news-and-events/press-release/2026/red-cross-declares-national-blood-supply-crisis-urges-immediate-.html",
+    "domains": ["human"],
+    "topics": ["donor blood", "national blood crisis", "type O", "blood-bank logistics"],
+    "verification_status": "verified-primary-context",
+    "notes": "Red Cross reported less than a one-day national supply of type O positive blood and limited distributions of type O blood to hospitals."
   }
 ]
