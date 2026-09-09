@@ -1,0 +1,35 @@
+name: Validate evidence data
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Validate JSON, registry coverage, and local links
+        run: python3 scripts/validate_data.py
+
+      - name: Check tracked text for high-risk secret patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+          pattern='BEGIN (RSA|OPENSSH|EC|DSA) PRIVATE KEY|ghp_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|AKIA[0-9A-Z]{16}'
+          if git grep -I -n -E "$pattern" -- . ':!*.pdf' ':!*.png' ':!*.jpg' ':!*.jpeg' ':!*.gif' ':!*.zip' ':!*.tar.gz'; then
+            echo 'Potential secret material detected in tracked text files.' >&2
+            exit 1
+          fi
+          echo 'No high-risk secret patterns found.'

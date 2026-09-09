@@ -70,6 +70,17 @@
     "verification_status": "verified-primary"
   },
   {
+    "id": "callan-1996",
+    "source_type": "peer-reviewed-primary",
+    "title": "Canine red blood cell transfusion practice",
+    "doi": "10.5326/15473317-32-4-303",
+    "pmid": "8784721",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8784721/",
+    "domains": ["veterinary"],
+    "topics": ["transfusion", "RBC", "pRBC", "whole blood", "survival", "adverse events"],
+    "verification_status": "verified-primary"
+  },
+  {
     "id": "radulescu-2021",
     "source_type": "peer-reviewed-primary",
     "title": "Randomized double-blinded clinical trial on acute transfusion reactions in dogs receiving leukoreduced versus nonleukoreduced packed red blood cells",
